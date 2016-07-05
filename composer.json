@@ -1,0 +1,33 @@
+{
+    "name": "thruster/view-bundle",
+    "type": "library",
+    "description": "Thruster ViewBundle Bundle",
+    "keywords": ["view-bundle", "thruster"],
+    "homepage": "https://thruster.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aurimas Niekis",
+            "email": "aurimas@niekis.lt"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "symfony/framework-bundle": "~2.3|~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8|~5.4"
+    },
+    "autoload": {
+        "psr-4": { "Thruster\\Bundle\\ViewBundle\\": "src" }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-ci": "vendor/bin/phpunit -c phpunit.xml.ci"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
