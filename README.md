@@ -1,20 +1,11 @@
 # ViewBundle Bundle
 
-[![Latest Version](https://img.shields.io/github/release/ThrusterIO/view-bundle.svg?style=flat-square)]
-(https://github.com/ThrusterIO/view-bundle/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)]
-(LICENSE)
-[![Build Status](https://img.shields.io/travis/ThrusterIO/view-bundle.svg?style=flat-square)]
-(https://travis-ci.org/ThrusterIO/view-bundle)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/ThrusterIO/view-bundle.svg?style=flat-square)]
-(https://scrutinizer-ci.com/g/ThrusterIO/view-bundle)
-[![Quality Score](https://img.shields.io/scrutinizer/g/ThrusterIO/view-bundle.svg?style=flat-square)]
-(https://scrutinizer-ci.com/g/ThrusterIO/view-bundle)
-[![Total Downloads](https://img.shields.io/packagist/dt/thruster/view-bundle.svg?style=flat-square)]
-(https://packagist.org/packages/thruster/view-bundle)
-
-[![Email](https://img.shields.io/badge/email-team@thruster.io-blue.svg?style=flat-square)]
-(mailto:team@thruster.io)
+[![Latest Version](https://img.shields.io/github/release/ThrusterIO/view-bundle.svg?style=flat-square)](https://github.com/ThrusterIO/view-bundle/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![Build Status](https://img.shields.io/travis/ThrusterIO/view-bundle.svg?style=flat-square)](https://travis-ci.org/ThrusterIO/view-bundle)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/ThrusterIO/view-bundle.svg?style=flat-square)](https://scrutinizer-ci.com/g/ThrusterIO/view-bundle)
+[![Quality Score](https://img.shields.io/scrutinizer/g/ThrusterIO/view-bundle.svg?style=flat-square)](https://scrutinizer-ci.com/g/ThrusterIO/view-bundle)
+[![Total Downloads](https://img.shields.io/packagist/dt/thruster/view-bundle.svg?style=flat-square)](https://packagist.org/packages/thruster/view-bundle)
 
 The Thruster ViewBundle Bundle. A simple addition to Symfony to provide ability to define views for simple data mappings similar to [Elixir](http://elixir-lang.org/) [Phoenix Views](http://www.phoenixframework.org/docs/views).
 
