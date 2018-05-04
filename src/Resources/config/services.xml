@@ -5,13 +5,17 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="thruster_views.name_converter" class="Thruster\Bundle\ViewBundle\View\ViewNameParser">
+        <service id="Thruster\Bundle\ViewBundle\View\ViewNameParser" public="false">
             <argument type="service" id="kernel"/>
         </service>
 
-        <service id="thruster_views.view_resolver" class="Thruster\Bundle\ViewBundle\View\ViewResolver">
+        <service id="thruster_views.name_converter" alias="Thruster\Bundle\ViewBundle\View\ViewNameParser" public="true"/>
+
+        <service id="Thruster\Bundle\ViewBundle\View\ViewResolver" public="false">
             <argument type="service" id="service_container"/>
             <argument type="service" id="thruster_views.name_converter"/>
         </service>
+
+        <service id="thruster_views.view_resolver" alias="Thruster\Bundle\ViewBundle\View\ViewResolver" public="true"/>
     </services>
 </container>
